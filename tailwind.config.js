@@ -11,14 +11,19 @@ export default {
       primaryFont: ["Audiowide", "sans-serif"],
       secondaryFont: ["Montserrat Alternates", "sans-serif"],
   },
-    extend: {
-      colors: {
-        green: "#B3C890",
-        darknight: "#445069",
-        grey: "#EEEEEE",
-        violet: "#6554AF",
+  extend: {
+    dropShadow: {
+      "3xl": "2px 2px 0 #000, -2px -2px 0 #000, 2px -2px 0 #000, -2px 2px 0 #000, 0 2px 0 #000, 2px 0 0 #000, 0 -2px 0 #000, -2px 0 0 #000, 2px 2px 5px #000",
+    },  
+
+    colors: {
+      green: "#B3C890",
+      darknight: "#445069",
+      grey: "#EEEEEE",
+      violet: "#6554AF",
     },
-    },
+  },
+  
   },
   plugins: [],
 }
